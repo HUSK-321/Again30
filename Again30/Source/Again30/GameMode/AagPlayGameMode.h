@@ -55,7 +55,7 @@ private:
 
 
 protected:
-	TObjectPtr<class UagManagerBase>& _createManager(EagManagerType type);
+	TObjectPtr<class UagManagerBase> _createManager(EagManagerType type);
 	
 	UPROPERTY()
 	TObjectPtr<class UagGameModeExtraData> _extraData = nullptr;

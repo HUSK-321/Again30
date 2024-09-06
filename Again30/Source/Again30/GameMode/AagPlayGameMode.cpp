@@ -98,7 +98,7 @@ APlayerStart* AagPlayGameMode::GetPlayerStartPoint()
 	return FoundPlayerStart;
 }
 
-TObjectPtr<UagManagerBase>& AagPlayGameMode::_createManager(EagManagerType type)
+TObjectPtr<UagManagerBase> AagPlayGameMode::_createManager(EagManagerType type)
 {
 	TObjectPtr<UagManagerBase> newManager = nullptr;
 	switch (type){
