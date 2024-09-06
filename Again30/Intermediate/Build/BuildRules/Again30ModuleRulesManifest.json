@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"C:\\dev\\Again30\\Again30\\Source\\Again30\\Again30.Build.cs",
-		"C:\\dev\\Again30\\Again30\\Source\\Again30.Target.cs",
-		"C:\\dev\\Again30\\Again30\\Source\\Again30Editor.Target.cs"
+		"C:\\Users\\user\\Documents\\GitHub\\Again30\\Again30\\Source\\Again30\\Again30.Build.cs",
+		"C:\\Users\\user\\Documents\\GitHub\\Again30\\Again30\\Source\\Again30.Target.cs",
+		"C:\\Users\\user\\Documents\\GitHub\\Again30\\Again30\\Source\\Again30Editor.Target.cs"
 	],
 	"EngineVersion": "5.3.2"
 }
