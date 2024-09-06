@@ -106,6 +106,8 @@
     <ClCompile_AdditionalOptions>$(AdditionalOptions) /Yu"$(SolutionDir)Intermediate\Build\Win64\x64\Again30Editor\Development\Engine\SharedPCH.Engine.Cpp20.h"</ClCompile_AdditionalOptions>
   </PropertyGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\Source\Again30\GameMode\AagPlayGameMode.cpp" />
+    <ClInclude Include="..\..\Source\Again30\GameMode\AagPlayGameMode.h" />
     <None Include="..\..\Again30.uproject"/>
     <None Include="..\..\Source\Again30.Target.cs"/>
     <None Include="..\..\Source\Again30Editor.Target.cs"/>

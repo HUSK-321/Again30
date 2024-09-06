@@ -1170,3 +1170,10 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.09.06-12.42.16:602][ 93]Display: Reload/Re-instancing Complete: No object changes detected
 [2024.09.06-12.42.16:603][ 93]LogLiveCoding: Display: Live coding succeeded, no code changes detected
 [2024.09.06-13.08.11:321][ 20]LogDerivedDataCache: C:/Users/husk3/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.121 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 816 files in 1395 folders with total size 13 MiB.
+[2024.09.06-13.55.40:017][473]LogLiveCoding: Display: Starting Live Coding compile.
+[2024.09.06-13.58.15:736][701]LogLiveCoding: Display:    Creating library C:\dev\Again30\Again30\Binaries\Win64\UnrealEditor-Again30.patch_0.lib and object C:\dev\Again30\Again30\Binaries\Win64\UnrealEditor-Again30.patch_0.exp
+[2024.09.06-13.58.16:161][702]LogClass: UPackage /Script/Again30 Reload.
+[2024.09.06-13.58.16:176][702]LogClass: Could not find existing class agPlayGameMode in package /Script/Again30 for reload, assuming new or modified class
+[2024.09.06-13.58.16:689][702]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2024.09.06-13.58.16:757][703]Display: Reload/Re-instancing Complete: 1 package changed, 1 class new
+[2024.09.06-13.58.16:757][703]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
