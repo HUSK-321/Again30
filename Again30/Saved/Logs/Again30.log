@@ -1166,3 +1166,7 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.09.06-12.07.17:155][268]LogContentBrowser: Attempting asset rename: NewFolder -> Interactable
 [2024.09.06-12.07.17:156][268]LogContentBrowser: End creating deferred item NewFolder
 [2024.09.06-12.08.10:328][642]LogDerivedDataCache: C:/Users/husk3/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.131 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 816 files in 1395 folders with total size 13 MiB.
+[2024.09.06-12.42.13:901][931]LogLiveCoding: Display: Starting Live Coding compile.
+[2024.09.06-12.42.16:602][ 93]Display: Reload/Re-instancing Complete: No object changes detected
+[2024.09.06-12.42.16:603][ 93]LogLiveCoding: Display: Live coding succeeded, no code changes detected
+[2024.09.06-13.08.11:321][ 20]LogDerivedDataCache: C:/Users/husk3/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.121 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 816 files in 1395 folders with total size 13 MiB.
