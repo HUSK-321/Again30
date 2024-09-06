@@ -1,6 +1,7 @@
 ﻿#pragma once
 
 #include "CoreMinimal.h"
+#include "Again30/Library/agEnumClass.h"
 #include "GameFramework/GameMode.h"
 #include "AagPlayGameMode.generated.h"
 
@@ -38,6 +39,7 @@ private:
 
 public:
 	AagPlayGameMode();
+	virtual void BeginPlay() override;
 	virtual void Tick(float DeltaSeconds) override;
 
 	void GameStart();
@@ -50,5 +52,14 @@ public:
 private:
 	void SpawnFish();
 	APlayerStart* GetPlayerStartPoint();
+
+
+protected:
+	TObjectPtr<class UagManagerBase>& _createManager(EagManagerType type);
 	
+	UPROPERTY()
+	TObjectPtr<class UagGameModeExtraData> _extraData = nullptr;
+
+	UPROPERTY()
+	TMap<EagManagerType, TObjectPtr<class UagManagerBase>> _managerContainer;
 };

@@ -1,24 +1,19 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
 
 #include "agMonsterMovePoint.h"
 
 
-// Sets default values
 AagMonsterMovePoint::AagMonsterMovePoint()
 {
-	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 }
 
-// Called when the game starts or when spawned
 void AagMonsterMovePoint::BeginPlay()
 {
 	Super::BeginPlay();
-	
+
+	//@todo Monster Move Manger 한테 TMap Container에 저장해서 관리해달라고 요청해야 함.
 }
 
-// Called every frame
 void AagMonsterMovePoint::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
